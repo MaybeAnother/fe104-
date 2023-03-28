@@ -1,11 +1,25 @@
 
 
+.header_newflex{
+
+ display: flex;
+ justify-content: space-evenly;
+  width: 1600px;
+
+}
+.header_central_newflex{
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
 
 .head_wrapper_newflex{
+    width: 1600px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 1600px;
+    justify-content: space-evenly;
+    
 }
 
 
@@ -32,7 +46,9 @@ line-height: 73px;
 letter-spacing: 0em;
 display: flex;
 text-align: left;
-color:#247CC0 ;
+color: rgb(3, 32, 250);
+background: #a4d8ff;
+opacity: 0.5;
 }
 .head_p22_newflex{
     font-family: 'Hind Siliguri' ,sans-serif;
@@ -115,4 +131,44 @@ opacity: 0.5;
     width: 643px;
     height: 611px;
    
+}
+.footer1{
+    width: 1140px;
+    
+    display: flex;
+    justify-content: space-evenly ;
+align-items: center;
+margin-left: 200px;
+height: 237px;
+background: #FFFFFF;
+box-shadow: 0px 100px 80px rgba(174, 174, 174, 0.08), 0px 43.751px 36.4414px rgba(174, 174, 174, 0.0575083), 0px 19.8401px 19.1406px rgba(174, 174, 174, 0.0476886), 0px 6.77214px 9.61331px rgba(174, 174, 174, 0.04), 0px 0.190079px 4.14347px rgba(174, 174, 174, 0.0323114), 0px -1.73968px 1.20532px rgba(174, 174, 174, 0.0224916);
+border-radius: 0px;
+}
+.main1_newflex{
+height: 270px;
+width: 1133px;
+border-radius: 0px;
+padding-left:200px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.text1{
+    width: 256px;
+    height: 63px;
+}
+.opacicity1_newflex{
+
+text-decoration-line: line-through;
+color: #030D15;
+opacity: 0.5;
+}
+.left_text_main1_newflex{
+    margin-left: 50px;
+}
+.oneline_newflex{
+    display: flex;
+justify-content: flex-start;
 }
